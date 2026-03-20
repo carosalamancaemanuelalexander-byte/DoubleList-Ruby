@@ -1,6 +1,5 @@
 # DoubleList-Ruby
-<<<<<<< HEAD
-=======
+
 # Proyecto: Implementación de Estructura de Datos en Ruby
 
 ## 1. Descripción
@@ -92,4 +91,3 @@ src/
 *Emanuel Alexander Caro S.
 *Miguel Antonio Gomez Guio
 
->>>>>>> e550173e7af93e553032a82cfa5a59e83e4848b5
