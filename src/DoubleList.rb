@@ -68,20 +68,18 @@ class DoubleList
         end
         false
     end        
+    
+    def get(index)
+        aux = @head
+        counter = 0
+        while aux
+           if counter == index
+              return aux.value           
+           end           
+           aux = aux.next
+           counter +=1
+        end
+              
+    end
 end
   
-    
-
-listaDoble = DoubleList.new()
-
-listaDoble.add(5)
-listaDoble.add(6)
-listaDoble.add(8)
-
-puts listaDoble.contains(6)
-listaDoble.remove(8)
-puts listaDoble.contains(8)
-
-puts listaDoble.head.value
-puts listaDoble.tail.value
-puts listaDoble.isEmpty
